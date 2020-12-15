@@ -1,11 +1,6 @@
 import React from "react";
-import { Route, BrowserRouter as Router } from "react-router-dom";
-import Dashboard from "./Pages/Dashboard";
+import Routes from "./Routes";
 
-const App = () => (
-  <Router>
-    <Route path="/" component={Dashboard} />
-  </Router>
-);
+const App = () => <Routes />;
 
 export default App;

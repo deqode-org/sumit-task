@@ -1,3 +1,5 @@
+// Using mock code, as provided
+
 const FAILURE_COEFF = 10;
 const MAX_SERVER_LATENCY = 200;
 

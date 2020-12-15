@@ -39,9 +39,7 @@ class AutoSuggestInput extends React.Component {
 
     // Checking if the last text is empty or the last word has changes
     if (!!textToSearch && lastText !== textToSearch) {
-      // debounce(() => {
       this.debouncedInputChange(textToSearch)
-      // }, 0)
     } else {
       this.resetSuggestions();
     }
@@ -91,12 +89,11 @@ class AutoSuggestInput extends React.Component {
   render() {
     return (
       <div>
-        <div className="input-group mb-3">
-          <span className="input-group-text" id="basic-addon1">Search</span>
+        <div className="input-group">
           <input
             className="form-control"
-            autoFocus
             type="text"
+            placeholder="Search"
             value={this.state.text}
             onChange={(e) => this.onInputChange(e)}
             onKeyDown={(e) => this.onKeyPressed(e)}
