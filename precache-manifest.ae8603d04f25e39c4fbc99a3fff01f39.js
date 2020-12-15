@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b15ef0fbfea93f0eb4b411e908b19344",
+    "revision": "5065a8ee7b01605471b80d4be1a791af",
     "url": "/sumit-task/index.html"
   },
   {
-    "revision": "8600ae29d1dbee837b43",
+    "revision": "96d34053858abb0ec25c",
     "url": "/sumit-task/static/css/main.391199a3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sumit-task/static/js/2.8f18e334.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8600ae29d1dbee837b43",
-    "url": "/sumit-task/static/js/main.b1caa35a.chunk.js"
+    "revision": "96d34053858abb0ec25c",
+    "url": "/sumit-task/static/js/main.9a177a91.chunk.js"
   },
   {
     "revision": "128f5b4778b40b437eb5",
