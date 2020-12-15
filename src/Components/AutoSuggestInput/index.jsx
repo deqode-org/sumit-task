@@ -1,7 +1,8 @@
 import React from "react";
 import KEYS_MAPPING from "../../constants";
 import getSuggestions from "../../Api";
-import SuggestionBox from "../SuggestionBox"
+import SuggestionBox from "../SuggestionBox";
+import { debounce } from "lodash";
 
 class AutoSuggestInput extends React.Component {
   constructor(props) {
@@ -14,6 +15,20 @@ class AutoSuggestInput extends React.Component {
 
     // Creating the ref to input for the focus
     this.inputRef = React.createRef();
+    this.debouncedInputChange = debounce(this.getSuggestedOptions, 1000);
+  }
+
+  getSuggestedOptions = (textToSearch) => {
+    getSuggestions(textToSearch)
+      .then((data) => {
+        this.setState({
+          suggestions: data,
+          highlightIndex: 0,
+        });
+      })
+      .catch((error) => {
+        console.log("Got error in getting data");
+      });
   }
 
   onInputChange = (event) => {
@@ -24,16 +39,9 @@ class AutoSuggestInput extends React.Component {
 
     // Checking if the last text is empty or the last word has changes
     if (!!textToSearch && lastText !== textToSearch) {
-      getSuggestions(textToSearch)
-        .then((data) => {
-          this.setState({
-            suggestions: data,
-            highlightIndex: 0,
-          });
-        })
-        .catch((error) => {
-          console.log("Got error in getting data");
-        });
+      // debounce(() => {
+      this.debouncedInputChange(textToSearch)
+      // }, 0)
     } else {
       this.resetSuggestions();
     }
