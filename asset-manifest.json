@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sumit-task/static/css/main.391199a3.chunk.css",
+    "main.js": "/sumit-task/static/js/main.be43d44a.chunk.js",
+    "main.js.map": "/sumit-task/static/js/main.be43d44a.chunk.js.map",
+    "runtime-main.js": "/sumit-task/static/js/runtime-main.feb436c8.js",
+    "runtime-main.js.map": "/sumit-task/static/js/runtime-main.feb436c8.js.map",
+    "static/js/2.8f18e334.chunk.js": "/sumit-task/static/js/2.8f18e334.chunk.js",
+    "static/js/2.8f18e334.chunk.js.map": "/sumit-task/static/js/2.8f18e334.chunk.js.map",
+    "index.html": "/sumit-task/index.html",
+    "precache-manifest.485edd431ca22acaf3818d6a2ee621a2.js": "/sumit-task/precache-manifest.485edd431ca22acaf3818d6a2ee621a2.js",
+    "service-worker.js": "/sumit-task/service-worker.js",
+    "static/css/main.391199a3.chunk.css.map": "/sumit-task/static/css/main.391199a3.chunk.css.map",
+    "static/js/2.8f18e334.chunk.js.LICENSE.txt": "/sumit-task/static/js/2.8f18e334.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.feb436c8.js",
+    "static/js/2.8f18e334.chunk.js",
+    "static/css/main.391199a3.chunk.css",
+    "static/js/main.be43d44a.chunk.js"
+  ]
+}
