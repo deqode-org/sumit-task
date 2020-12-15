@@ -15,7 +15,7 @@ class AutoSuggestInput extends React.Component {
 
     // Creating the ref to input for the focus
     this.inputRef = React.createRef();
-    this.debouncedInputChange = debounce(this.getSuggestedOptions, 1000);
+    this.debouncedInputChange = debounce(this.getSuggestedOptions, 500);
   }
 
   getSuggestedOptions = (textToSearch) => {
