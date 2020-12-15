@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sumit-task/static/css/main.391199a3.chunk.css",
-    "main.js": "/sumit-task/static/js/main.9a177a91.chunk.js",
-    "main.js.map": "/sumit-task/static/js/main.9a177a91.chunk.js.map",
+    "main.js": "/sumit-task/static/js/main.cd39e2f9.chunk.js",
+    "main.js.map": "/sumit-task/static/js/main.cd39e2f9.chunk.js.map",
     "runtime-main.js": "/sumit-task/static/js/runtime-main.feb436c8.js",
     "runtime-main.js.map": "/sumit-task/static/js/runtime-main.feb436c8.js.map",
     "static/js/2.8f18e334.chunk.js": "/sumit-task/static/js/2.8f18e334.chunk.js",
     "static/js/2.8f18e334.chunk.js.map": "/sumit-task/static/js/2.8f18e334.chunk.js.map",
     "index.html": "/sumit-task/index.html",
-    "precache-manifest.ae8603d04f25e39c4fbc99a3fff01f39.js": "/sumit-task/precache-manifest.ae8603d04f25e39c4fbc99a3fff01f39.js",
+    "precache-manifest.d8f8da4e2d672181bc22c81da5e05e45.js": "/sumit-task/precache-manifest.d8f8da4e2d672181bc22c81da5e05e45.js",
     "service-worker.js": "/sumit-task/service-worker.js",
     "static/css/main.391199a3.chunk.css.map": "/sumit-task/static/css/main.391199a3.chunk.css.map",
     "static/js/2.8f18e334.chunk.js.LICENSE.txt": "/sumit-task/static/js/2.8f18e334.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.feb436c8.js",
     "static/js/2.8f18e334.chunk.js",
     "static/css/main.391199a3.chunk.css",
-    "static/js/main.9a177a91.chunk.js"
+    "static/js/main.cd39e2f9.chunk.js"
   ]
 }
